@@ -41,6 +41,11 @@
   border-radius: 5px;
   margin: 0;
 } */
+.demo-img {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom: solid 10px black;
+}
 .profile-name {
   /* font-size: 0.7em; */
   font-weight: 200;
@@ -52,4 +57,10 @@
 }
 .footer-text-down {
   font-size: 1.3rem;
+}
+
+@media (max-width:767px) {
+  .heading-text {
+    text-align: center;
+  }
 }
